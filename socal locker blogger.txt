@@ -1,0 +1,120 @@
+http://mostsharedposts.blogspot.com/2014/12/social-content-locker-for-blogger-blogspot.html
+
+<script src='http://code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'/>
+
+
+<link href='https://sites.google.com/site/menightfury/home/social-locker/public/sociallocker_v1.6.0.css' rel='stylesheet'/>
+<script src='https://sites.google.com/site/menightfury/home/social-locker/public/sociallockermin_v1.6.0.js' type='text/javascript'/>
+<script type='text/javascript'>
+  //<![CDATA[
+jQuery(document).ready(function ($) {
+  $('#default-usage .to-lock').sociallocker({
+
+    buttons: {order:["facebook-like","twitter-tweet","google-plus"]},
+
+    twitter: {url:"https://www.twitter.com/nacer_bobaker"},
+    facebook: {url:"https://www.facebook.com/arabogicial"},
+    google: {url:"https://plus.google.com/u/0/+nacerbobakerd3d"},
+
+    text: {
+      header: "Like us To Unlock This Content",
+      message: "This content is locked. Like us on Twitter, Facebook or Google plus to unlock it."
+    },
+
+    locker: {close: false, timer: 0,},
+    theme: "flat"
+  });
+});
+  //]]>
+</script>
+
+
+
+
+
+"facebook-like" 
+"facebook-share" 
+"google-plus" 
+"google-share" 
+"twitter-tweet" 
+"twitter-follow"    
+"linkedin-share"
+
+
+ to add more buttons add code in this line from above code.
+
+    buttons: {order:["facebook-like","twitter-tweet","google-plus"]},
+
+
+
+<article id="default-usage">
+<div class="to-lock" style="display:none;">
+Hello i am the hidden content
+</div>
+</article>
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+http://www.bloggingtrendz.com/create-social-content-locker-blogger-video/
+------------------Code To Add Before </head> tag----------------
+
+<script src='http://code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'/>
+
+--------------Code To Add After </head> tag-----------------
+
+
+<link href='https://googledrive.com/host/0B_1mqJd2tC8qeDVzSnBJMDh5WUk' rel='stylesheet'/>
+
+<script src='https://googledrive.com/host/0B_1mqJd2tC8qbGdmQzRZVGk3bXM' type='text/javascript'/>
+
+<script type='text/javascript'>
+//<![CDATA[
+jQuery(document).ready(function ($) {
+$('#default-usage .to-lock').sociallocker({
+
+buttons: {order:["facebook-like","twitter-tweet","google-plus"]},
+
+twitter: {url:"http://twitter.com/nacer_bobaker"},
+facebook: {url:"https://www.facebook.com/arabogicial"},
+google: {url:"https://plus.google.com/u/0/+nacerbobakerd3d"},
+
+text: {
+header: "Like us To See This Locked Content",
+message: "This content is locked. You have to Like us on Facebook, Twitter or Google plus to unlock it."
+},
+
+locker: {close: false, timer: 0,},
+
+theme: "flat"
+
+});
+});
+//]]>
+</script>
+
+-----------Code To Lock Your Content In Post-------------
+
+<article id="default-usage">
+<div class="to-lock" style="display:none;">
+- Add The Content Here Which You Want To Lock -
+</div>
+</article>
+
+
+
+
+<div style="text-align: center;">
+<ul class="btn">
+<li><a class="demo" href="YOUR-LINK-HERE" target="_blank">DEMO</a></li>
+<li><a class="download" href=" YOUR-LINK-HERE" target="_blank">DOWNLOAD</a></li>
+</ul>
+</div>
+
+
+A0E9467254EE11C6785D72D9E0890037F016613AB1B906E5243F1510D7D1A7C5
